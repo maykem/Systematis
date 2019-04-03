@@ -17,11 +17,14 @@ body {
     font-family: 'Open Sans', 'Roboto', sans-serif;
     text-align: center;
     margin: 0;
+    background-image: url(../img/estrelas.jpg);
 }
+
+
 
 .header-site {
     
-    background-image: url(../galaxia.jpg);
+    background-image: url(../img/galaxia.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,21 +34,18 @@ body {
     padding-bottom: 100px;
 }
 
-
-
-
 .content-site{
     
     padding-top:150px;
     padding-bottom: 150px;
     color: white;
-    background-image: url("estrelas.jpgp");
+    background-image: url(../img/estrelas.jpg);
     
 }
 
 .title-site{
     
-    background-image: url("title.jpg.jpg");
+    background-image: url(../img/title.jpg.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -63,7 +63,127 @@ body {
     padding-bottom: 50px;
 }
 
+.planetas{
+    background-image: url("../img/planetinhas.png");
+    background-size: cover;
+   background-position: center top;
+    color: white;
+    font-size: 30px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top:200px;
+    padding-bottom:200px;
+    
+}
+.mercurio{
+    background-image: url("../img/Merc%C3%BArio%20.jpeg");
+    background-size: cover;
+   background-position: center top;
+    color: white;
+    font-size: 30px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top:200px;
+    padding-bottom:200px;
+    
+}
 
+.venus{
+    background-image: url("../img/Venus.jpeg");
+    background-size: cover;
+   background-position: center top;
+    color: white;
+    font-size: 30px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top:200px;
+    padding-bottom:200px;
+}
+.terra{
+    
+    background-image: url("../img/terra.png");
+    background-size: cover;
+   background-position: center top;
+    color: white;
+    font-size: 30px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top:200px;
+    padding-bottom:200px;
+}
+.marte{
+    background-image: url("../img/Marte.jpeg");
+    background-size: cover;
+   background-position: center top;
+    color: white;
+    font-size: 30px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top:200px;
+    padding-bottom:200px;
+}
+
+.jupiter{
+    background-image: url("../img/J%C3%BApiter%20.jpeg");
+    background-size: cover;
+   background-position: center top;
+    color: white;
+    font-size: 30px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top:200px;
+    padding-bottom:200px;
+}
+
+.saturno{
+    
+    background-image: url("../img/Saturno.jpeg");
+    background-size: cover;
+   background-position: center top;
+    color: white;
+    font-size: 30px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top:200px;
+    padding-bottom:200px;
+}
+
+.sombra{
+    
+    text-shadow: 3px 3px 3px rgb(0,0,0);
+    
+    
+}
+
+.urano{
+    
+    background-image: url("../img/Urano.jpeg");
+    background-size: cover;
+   background-position: center top;
+    color: white;
+    font-size: 30px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top:200px;
+    padding-bottom:200px;
+}
+.netuno{
+    
+    background-image: url("../img/Netuno%20.jpeg");
+    background-size: cover;
+   background-position: center top;
+    color: white;
+    font-size: 30px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top:200px;
+    padding-bottom:200px;
+}
+
+.texto{
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 
 
@@ -77,8 +197,25 @@ a {
     
 }
 
+.textinho{
+    
+    font-size: 30px;
+}
+
 h1 {
     font-size: 2.5em; 
+}
+
+.galaxy{
+    
+    font-size: 30px;
+     margin-left: 10px;
+    margin-right: 10px;
+}
+
+.titulo2{
+    font-size: 40px;
+   
 }
 
 h1:hover {
@@ -90,6 +227,8 @@ nav a{
     text-align: center;
     height: 70px;
     line-height: 70px;
+    color:white;
+    font-size: 25px
 }
 .menu{
     margin: 0 30px 0 0;
@@ -97,16 +236,18 @@ nav a{
 
 .menu a{
     text-decoration: none;
-    color: gray;
+    font-size: 20px;
+    color: white;
     margin: 0 10px;
     line-height: 70px;
 }
 label {
-    margin: 0 40px 0 0;
+    margin 0 40px 0 0;
     font-size: 26px;
     line-height: 70px;
     display: none;
     width: 40px;
+    color: aliceblue;
     
     
 }
@@ -121,7 +262,6 @@ label {
         cursor: pointer;
         
     }
-    
    
 
 
@@ -143,77 +283,26 @@ label {
     display: block;
 }
 
-.mercúrio{
-	background-image: url("Mercúrio.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: azure;
-    background-attachment: fixed;
-}
-
-.venus{
-	background-image: url("Venus.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: azure;
-    background-attachment: fixed;
-}
-
-.terra{
-	background-image: url("terra.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: azure;
-    background-attachment: fixed;
-}
-
-.marte{
-	
-	background-image: url("Marte.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: azure;
-    background-attachment: fixed;
-}
-
-.jupiter{
-	
-	background-image: url("Júpiter.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: azure;
-    background-attachment: fixed;
-}
-.saturno{
-	background-image: url("Saturnojpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: azure;
-    background-attachment: fixed;
-}
-
-.urano{
-	background-image: url("Uranojpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: azure;
-    background-attachment: fixed;
-}
-
-.netuno{
-	background-image: url("Netuno.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: azure;
-    background-attachment: fixed;
-}
-
-
+.textao{
     
+    background-image: url("../img/4k.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: azure;
+    background-attachment: fixed;
+    
+}
+    .almondega{
+        background-image: url("../img/via.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: azure;
+    background-attachment: fixed
+    }
 
 #outro{
     
-    background-image: url("viaboa2.jpg");
+    background-image: url("../img/viaboa2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -232,7 +321,7 @@ label {
 
 
 #mayke {
-    background-image: url("title.jpg.jpg");
+    background-image: url("../img/title.jpg.jpg");
     background-size: cover;
     background-position: top;
     color: white;
@@ -247,4 +336,3 @@ label {
 div p a {
     font-weight: 800;
 }
-    
