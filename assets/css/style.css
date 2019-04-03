@@ -1,0 +1,250 @@
+/* fontes */
+
+@font-face{
+    font-family: 'Roboto';
+    src:url('../fonts/Roboto/HevelticaNeue');
+}
+@font-face{
+    font-family: 'Roboto';
+    src:url('../fonts/Roboto/Roboto-Bold.ttf');
+    font-weight: bold;
+}
+
+/* Estilo Pincipal */
+
+
+body {
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.header-site {
+    
+    background-image: url(../galaxia.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+
+
+.content-site{
+    
+    padding-top:150px;
+    padding-bottom: 150px;
+    color: white;
+    background-image: url("estrelas.jpgp");
+    
+}
+
+.title-site{
+    
+    background-image: url("title.jpg.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top:200px;
+    padding-bottom:200px;
+    color: azure;
+    
+}
+
+.footer-site{
+    background-color: #333333;
+    color: white;
+    padding-top; 50px;
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+h1 {
+    font-size: 2.5em; 
+}
+
+h1:hover {
+    color: grey;
+}
+
+nav a{
+    border-bottom: 1px solid #EAEAEB;
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+}
+.menu{
+    margin: 0 30px 0 0;
+}
+
+.menu a{
+    text-decoration: none;
+    color: gray;
+    margin: 0 10px;
+    line-height: 70px;
+}
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 40px;
+    
+    
+}
+#toggle {
+    display: none;
+    
+}
+
+@media only screen and (max-width: 500px){
+    label {
+        display: block;
+        cursor: pointer;
+        
+    }
+    
+   
+
+
+    
+
+
+
+.menu  {
+    text-align: center;
+    width: 100%;
+    display: none;
+}
+.menu a{
+    display: block;
+    border-bottom:1px solid #EAEAEB;
+    margin: 0;
+}
+#toggle:checked + .menu{
+    display: block;
+}
+
+.mercúrio{
+	background-image: url("Mercúrio.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: azure;
+    background-attachment: fixed;
+}
+
+.venus{
+	background-image: url("Venus.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: azure;
+    background-attachment: fixed;
+}
+
+.terra{
+	background-image: url("terra.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: azure;
+    background-attachment: fixed;
+}
+
+.marte{
+	
+	background-image: url("Marte.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: azure;
+    background-attachment: fixed;
+}
+
+.jupiter{
+	
+	background-image: url("Júpiter.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: azure;
+    background-attachment: fixed;
+}
+.saturno{
+	background-image: url("Saturnojpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: azure;
+    background-attachment: fixed;
+}
+
+.urano{
+	background-image: url("Uranojpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: azure;
+    background-attachment: fixed;
+}
+
+.netuno{
+	background-image: url("Netuno.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: azure;
+    background-attachment: fixed;
+}
+
+
+    
+
+#outro{
+    
+    background-image: url("viaboa2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 400px;
+    padding-top: 250px;
+    color: azure;
+    
+   
+    
+    
+    
+    
+    
+    
+}
+
+
+#mayke {
+    background-image: url("title.jpg.jpg");
+    background-size: cover;
+    background-position: top;
+    color: white;
+    padding: 80px 30px 80px 30px;
+    
+}
+
+#mayke h1 {
+    text-shadow: #333 3px 3px 3px;
+}
+
+div p a {
+    font-weight: 800;
+}
+    
